@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 26/09/2024 12:13:04 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="pojos.Productos" table="productos" catalog="productos" optimistic-lock="version">
+        <id name="idProductos56" type="java.lang.Integer">
+            <column name="Id_Productos_56" />
+            <generator class="identity" />
+        </id>
+        <property name="estado56" type="java.lang.Boolean">
+            <column name="Estado_56" />
+        </property>
+        <property name="nombre56" type="string">
+            <column name="Nombre_56" length="100" />
+        </property>
+        <property name="cantidad56" type="java.lang.Integer">
+            <column name="Cantidad_56" />
+        </property>
+        <property name="ubicacion56" type="string">
+            <column name="Ubicacion_56" length="100" />
+        </property>
+    </class>
+</hibernate-mapping>
